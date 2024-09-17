@@ -6,6 +6,7 @@
 i
 {
     margin-right: 10px;
+  
 }
 a
 {
@@ -30,7 +31,8 @@ header
     justify-content: space-around;
     align-content: center;
    z-index: 99999999999;
-   position: sticky;
+   position: fixed;
+   width: 100%;
    top: 0;
     
 }
@@ -195,4 +197,118 @@ header
 {
     font-size: 40px;
     
+}
+.section1
+{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+   
+}
+.parsect1
+{
+    width: 350px;
+}
+.parsec1
+{
+    margin-top:60px;
+    height: 360px;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+.listsec1 ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+   
+}
+.immg
+{
+    width: 40%;
+    height: 90%;
+}
+.titelsec1
+{
+    font-size: 30px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+    
+    
+}
+.titel2sec1
+{
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    font-size: 30px;
+}
+ 
+
+.section2
+{
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+   
+}
+.imsec2
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 50%;
+    height: 80%;
+}
+.parsect2
+{
+    width: 350px;
+}
+.parsec2
+{
+    
+    height: 360px;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+.listsec2 ul li
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 30px;
+}
+
+.titelsec2
+{
+    font-size: 30px;
+    height: 20px;
+    font-family: "Noto Serif", serif;
+    
+    
+}
+.titel2sec2
+{
+    font-family: "Dancing Script", cursive;
+    color: rgb(128, 88, 9);
+    font-size: 30px;
+}
+.imsec3
+{
+    width: 100%;
 }
